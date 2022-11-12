@@ -68,7 +68,7 @@
       <section class="solutions">
         <div class="container">
           <h1 class="title">Ефективні рішення для<br />вашого бізнесу</h1>
-          <button class="solutions-btn btn" type="button">
+          <button class="solutions-btn btn" type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -120,33 +120,42 @@
           <h2 class="section-title subtitle">Чим ми займаємося</h2>
           <ul class="work-item">
             <li class="work-items">
-              <img
-                class="work-images"
-                src="./images/box-1.jpg"
-                alt="Робота з програмами"
-                width="370"
-                height="294"
-              />
+              <div class="work-sign">
+                <img
+                  class="work-images"
+                  src="./images/box-1.jpg"
+                  alt="Робота з програмами"
+                  width="370"
+                  height="294"
+                />
+                <p class="work-signature">Десктопні додатки</p>
+              </div>
             </li>
 
             <li class="work-items">
-              <img
-                class="work-images"
-                src="./images/box-2.jpg"
-                alt="Робота с гаджетами"
-                width="370"
-                height="294"
-              />
+              <div class="work-sign">
+                <img
+                  class="work-images"
+                  src="./images/box-2.jpg"
+                  alt="Робота с гаджетами"
+                  width="370"
+                  height="294"
+                />
+                <p class="work-signature">Мобільні додатки</p>
+              </div>
             </li>
 
             <li class="work-items">
-              <img
-                class="work-images"
-                src="./images/box-3.jpg"
-                alt="Робота с графікой"
-                width="370"
-                height="294"
-              />
+              <div class="work-sign">
+                <img
+                  class="work-images"
+                  src="./images/box-3.jpg"
+                  alt="Робота с графікой"
+                  width="370"
+                  height="294"
+                />
+                <p class="work-signature">Дизайнерські рішення</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -465,5 +474,15 @@
         </div>
       </div>
     </footer>
+
+    <!--модальное окно-->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close class="modal-close" type="button">
+          <span class="modal-X">X</span>
+        </button>
+      </div>
+    </div>
+    <script src="./modal.js"></script>
   </body>
 </html>
