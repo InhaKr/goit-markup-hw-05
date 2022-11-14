@@ -6,17 +6,17 @@
 }
 
 .header {
-  position: fixed;
-  width: 100%;
+  /* position: fixed;
+  width: 100%; */
   background-color: var(--white-color);
   border-bottom: 1px solid #ECECEC;
   overflow: hidden;
   z-index: 1;
 }
 
-.main {
+/* .main {
   padding-top: 80px;
-}
+} */
 
 
 .header-logo {
